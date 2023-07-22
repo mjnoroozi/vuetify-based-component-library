@@ -1,4 +1,5 @@
 import "vuetify/styles";
+import "./style.css";
 import { createVuetify } from "vuetify";
 
 const myCustomLightTheme = {
