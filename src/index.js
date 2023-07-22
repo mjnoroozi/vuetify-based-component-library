@@ -17,13 +17,6 @@ const myCustomLightTheme = {
   },
 };
 
-const vuetify = createVuetify({
-  theme: {
-    defaultTheme: "driver",
-    themes: {
-      myCustomLightTheme,
-    },
-  },
-});
+const vuetify = createVuetify();
 
 export default vuetify;
