@@ -1,6 +1,6 @@
 {
   "name": "vuetify-based-component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple vuetify wrapper",
   "scripts": {
     "dev": "vite --port 9876",
