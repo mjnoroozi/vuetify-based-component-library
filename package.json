@@ -5,8 +5,21 @@
   "scripts": {
     "dev": "vite --port 9876",
     "build": "vite build",
+    "build:lib": "vite build",
     "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/sample-component-library.umd.cjs",
+  "module": "./dist/sample-component-library.js",
+  "exports": {
+    ".": {
+      "import": "./dist/sample-component-library.js",
+      "require": "./dist/sample-component-library.umd.cjs"
+    }
   },
   "author": "",
   "license": "ISC",
