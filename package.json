@@ -21,7 +21,7 @@
       "require": "./dist/sample-component-library.umd.cjs"
     }
   },
-  "author": "",
+  "author": "mjnoroozi",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-vuetify": "^1.0.2",
