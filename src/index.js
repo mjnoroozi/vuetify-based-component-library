@@ -7,3 +7,5 @@ import { createVuetify } from "vuetify";
 const vuetify = createVuetify();
 
 createApp(App).use(vuetify).mount("#app");
+
+export { vuetify };
