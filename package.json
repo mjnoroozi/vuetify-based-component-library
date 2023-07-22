@@ -19,7 +19,8 @@
     ".": {
       "import": "./dist/sample-component-library.js",
       "require": "./dist/sample-component-library.umd.cjs"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "author": "mjnoroozi",
   "license": "ISC",
