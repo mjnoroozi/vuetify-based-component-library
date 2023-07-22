@@ -1,3 +1,3 @@
 <template>
-  <div>app component</div>
+  <VBtn>Click me </VBtn>
 </template>
